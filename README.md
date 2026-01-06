@@ -1,6 +1,4 @@
 
-  
-
 # ATTENZIONE
 
 Non ho nessuna responsabilità sull'utilizzo del programma, decidete voi cosa farci, a me è sembrato 'divertente'.
@@ -41,23 +39,13 @@ Nel file di input vanno inserite le funzioni per intero, comprese i firme, anche
 
 In pratica basta fare copia e incolla dell'intero pseudocidice, raramente va sistemato qualcosa.
 
-  
+Infatti:
+- Caratteri come ';' e spazi vuoti sono ignorati.
 
-Caratteri come ';' e spazi vuoti sono ignorati.
+- Contano solamente le andate a capo.
 
-Contano solamente le andate a capo.
+- I numeri ad inizio riga vengono **eliminati**, così da poter copiare da un pdf.
 
-I numeri ad inizio riga vengono **eliminati**, così da poter copiare da un pdf.
-
-  
-
-NON devono essere presenti tipi di nessun genere: "int i" darà problemi, cancella "int"
-
-  
-
-Le variabili DEVONO essere **monocarattere**, niente numeri o caratteri speciali.
-
-  
 
 ## Costrutti
 
@@ -146,7 +134,7 @@ Ancora ancora uguale a c:
 
 #### esempio di input valido:<br>
 
-	Si possono tranquillamente lasciare i numeri a inizio riga, magari state compiando da un pdf, dover togliere ogni numero farebbe perdere tempo durante lo studio.  
+Si possono tranquillamente lasciare i numeri a inizio riga, magari state compiando da un pdf, dover togliere ogni numero farebbe perdere tempo durante lo 'studio'.  
 
     fun1(x,y){
     2 while(x+3<y){
@@ -261,7 +249,7 @@ Attenzione a input, potrebbe essere scritto come 'Input' o 'INPUT'. Anche se è 
 
 
 
-Float x 	//NON andrà sicurmente, è meglio evitare ogni tipizzazione, anche se int è ammesso  
+Float x 	//NON andrà sicurmente, è meglio evitare ogni tipizzazione, anche se int è ammesso (in ogni caso IJVM usa solo interi)
 
 if (a = b){ // è == non =   è identico al c
 }
